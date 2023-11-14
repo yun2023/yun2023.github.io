@@ -3,7 +3,9 @@ function mostrarRespuesta(acepto) {
     respuesta.style.display = "block";
   
     if (acepto) {
-      respuesta.innerHTML = "<p>¡Has hecho muy feliz a alguien hoy!</p><img src='pikachu.jpg' alt='Corazón'>";
+    respuesta.innerHTML = "<p>¡Has hecho muy feliz a alguien hoy!</p><img src='pikachu.jpg' alt='Corazón'>";
+    var btnNo = document.getElementById("btnNo");
+      btnNo.style.display = "none"; // Esta línea oculta el botón "No, gracias"
     }
   }
   

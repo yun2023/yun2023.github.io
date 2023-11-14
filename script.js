@@ -3,7 +3,7 @@ function mostrarRespuesta(acepto) {
     respuesta.style.display = "block";
   
     if (acepto) {
-      respuesta.innerHTML = "<p>¡Has hecho muy feliz a alguien hoy!</p><img src='corazon.png' alt='Corazón'>";
+      respuesta.innerHTML = "<p>¡Has hecho muy feliz a alguien hoy!</p><img src='pikachu.jpg' alt='Corazón'>";
     }
   }
   
